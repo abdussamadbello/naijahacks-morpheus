@@ -1,0 +1,8 @@
+:host /deep/ tr.done {
+    background: rgba(138, 139, 138, 0.5);
+    text-decoration: line-through;
+
+    }
+    :host /deep/ tr.aborted {
+    background: rgba(223, 210, 210, 0.5);
+    }

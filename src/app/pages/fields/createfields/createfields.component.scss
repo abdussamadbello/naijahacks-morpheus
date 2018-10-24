@@ -1,0 +1,13 @@
+@import '../../../@theme/styles/themes';
+
+
+@include nb-install-component() {
+.intitle{
+    font-family: nb-theme(font-secondary);
+    font-size: 1rem;
+    font-weight: nb-theme(font-weight-Bold);
+    line-height: 1rem;
+    color: nb-theme(color-fg-heading);
+    padding-bottom: 1.5rem
+  }
+}
